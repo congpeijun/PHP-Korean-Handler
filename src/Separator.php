@@ -29,7 +29,7 @@ class Separator
 
         $choseong = Constants::CHOSEONG_LIST[$choseongBase];
         $jungseong = Constants::JUNGSEONG_LIST[$jungseongBase];
-        $jongseong = $jongseongBase > 0
+        $jongseong = $jongseongBase >= 0
             ? Constants::JONGSEONG_LIST[$jongseongBase]
             : null;
 
